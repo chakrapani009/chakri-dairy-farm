@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chakri Dairy Farm</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f7fff7;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+                  url('cow.jpg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #e8f5e9;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #2e7d32;
+      font-weight: bold;
+    }
+    section {
+      padding: 30px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .card h3 {
+      color: #2e7d32;
+    }
+    footer {
+      background-color: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+    .contact {
+      background-color: #e8f5e9;
+      border-radius: 8px;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Chakri Dairy Farm</h1>
+  <p>Fresh Milk • Pure Ghee • Quality Dairy Products</p>
+  <p><strong>Call us:</strong> +91-XXXXXXXXXX</p>
+</header>
+
+<nav>
+  <a href="#about">About Us</a>
+  <a href="#products">Products</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Our Dairy</h2>
+  <p>
+    Welcome to Chakri Dairy Farm. We provide fresh daily milk, pure ghee,
+    and high-quality dairy products directly from our farm to your home.
+    Our first priority is purity and customer satisfaction.
+  </p>
+</section>
+
+<section id="products">
+  <h2>Our Products</h2>
+  <div class="products">
+    <div class="card">
+      <h3>Daily Fresh Milk</h3>
+      <p>Cow / Buffalo Milk</p>
+    </div>
+    <div class="card">
+      <h3>Pure Ghee</h3>
+      <p>Homemade & Natural</p>
+    </div>
+    <div class="card">
+      <h3>Curd</h3>
+      <p>Fresh & Healthy</p>
+    </div>
+    <div class="card">
+      <h3>Butter</h3>
+      <p>Pure Dairy Butter</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <div class="contact">
+    <p><strong>Owner:</strong> Chakri</p>
+    <p><strong>Mobile:</strong> +91-XXXXXXXXXX</p>
+    <p><strong>Address:</strong> Your Village / Area Name</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Chakri Dairy Farm | Fresh & Trusted</p>
+</footer>
+
+</body>
+</html>
